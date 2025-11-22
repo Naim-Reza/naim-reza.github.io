@@ -1,0 +1,99 @@
+/* Base color palette inspired by Catppuccin's Mocha theme */
+:root {
+  /* Dark background and light foreground */
+  --background: #1e1e2e;
+  --foreground: #cdd6f4;
+  /* Accent color used for prompts and highlights */
+  --accent: #89b4fa;
+  /* Error color for invalid commands */
+  --error: #f38ba8;
+  /* Cursor colour */
+  --cursor: #cdd6f4;
+  /* Prompt colour */
+  --prompt: #89b4fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  padding: 1rem;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Terminal output container */
+.terminal {
+  white-space: pre-wrap;
+  line-height: 1.4;
+  /* Make sure there's room for the command line at the bottom */
+  padding-bottom: 3rem;
+}
+
+/* Command line container fixed at the bottom */
+.command-line {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 10;
+}
+
+/* Prompt symbol styling */
+.prompt {
+  color: var(--prompt);
+  margin-right: 0.5rem;
+}
+
+/* The visible portion of the user's typed command */
+.command-text {
+  white-space: pre;
+}
+
+/* Hide the real input off-screen so it still captures keystrokes */
+#hidden-input {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/* Blinking block cursor */
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1em;
+  background-color: var(--cursor);
+  margin-left: 2px;
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  50.1%, 100% {
+    opacity: 0;
+  }
+}
+
+/* Links within terminal output */
+.terminal a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.terminal a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for error messages */
+.error {
+  color: var(--error);
+}
