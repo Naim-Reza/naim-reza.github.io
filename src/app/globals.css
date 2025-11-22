@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1a1b26;
+  --foreground: #a9b1d6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-mono: var(--font-jetbrains-mono);
+  
+  --color-tokyo-bg: #1a1b26;
+  --color-tokyo-fg: #a9b1d6;
+  --color-tokyo-black: #414868;
+  --color-tokyo-red: #f7768e;
+  --color-tokyo-green: #9ece6a;
+  --color-tokyo-yellow: #e0af68;
+  --color-tokyo-blue: #7aa2f7;
+  --color-tokyo-magenta: #bb9af7;
+  --color-tokyo-cyan: #7dcfff;
+  --color-tokyo-white: #c0caf5;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-jetbrains-mono), monospace;
+}

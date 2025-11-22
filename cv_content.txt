@@ -1,0 +1,94 @@
+NAIM REZA
+Graduate Research Assistant
+# naim@chosun.kr     § github.com/Naim-Reza        Google Scholar     ï LinkedIn
+
+Career Objective
+Pursue and contribute to research focused on explainability, security, and optimization for deep learning in
+computer vision, particularly in biometric and healthcare applications. My goal is to develop secure, robust,
+and transparent AI systems that are resource-efficient and deployable in edge devices.
+
+Research Interests
+Computer Vision; Robust & Explainable Deep Learning; Biometric Presentation Attack Detection; Model
+Optimization and Regularization; Efficient Learning under Data/Compute Constraints.
+
+Education
+M.Sc. in Computer Engineering — Chosun University, Gwangju, South Korea                       Sep 2022–Aug 2024
+                                                                                                CGPA: 4.35/4.50
+B.Sc. in Electrical & Electronic Engineering — University of Dhaka, Bangladesh                Mar 2016–Jul 2021
+                                                                                                CGPA: 3.61/4.00
+
+Publications (Journal)
+– N. Reza, H. Y. Jung, “Cross-sensor Generalization for Fingerprint Presentation Attack Detection Leverag-
+  ing Local Feature Enhancement,” IEEE Transactions on Biometrics, Behavior, and Identity Science, Early
+  Access, 2025. DOI: 10.1109/TBIOM.2025.3590827.
+
+– N. Reza, H. Y. Jung, “Re-calibrating Network by Refining Initial Features through Generative Gradient
+  Regularization,” IEEE Access, vol. 13, pp. 20191–20202, 2025. DOI: 10.1109/ACCESS.2025.3534216.
+
+– M. Al Amin, N. Reza, H. Y. Jung, “Lightweight Network for Spoof Fingerprint Detection by Attention-
+  Aggregated Receptive Field-Wise Feature,” Electronics, vol. 14, no. 9, 2025. DOI: 10.3390/electron-
+  ics14091823.
+
+– N. Reza, H. Y. Jung, “Enhancing Ensemble Learning Using Explainable CNN for Spoof Fingerprints,”
+  Sensors, vol. 24, no. 1, 2024. DOI: 10.3390/s24010187.
+
+
+Research Experience
+Graduate Research Assistant, Computer Vision Lab, Chosun University                            Sep 2022–Present
+– Explainability-Guided Optimization: Developed generative-gradient regularization to refine early-layer
+  features, increasing feature variance and improving downstream accuracy across diverse backbones.
+– Fingerprint PAD (Cross-Sensor/Material): Proposed sensor scaling, liveness-score guided local en-
+  hancement, and receptive-field-wise error calculation to improve generalization and mitigate overfitting in
+  low-data regimes.
+– Efficient PAD Architectures: Designed attention-aggregated lightweight networks balancing accuracy
+  and computational cost for edge deployment.
+
+Selected Projects
+Face Recognition Vendor Test (FRVT)
+Implemented metric-learning pipeline for large-scale face verification to enhance discriminability and robustness
+via designing a siamese network and training criterion.
+Emergency Delivery System using UAV
+Built autonomous UAV-based delivery platform; recognized with “Best Institute for Innovation” award (2019).
+
+
+
+
+                                                       1
+Industry Experience
+Software Engineer, Celloscope-BD (FinTech), Dhaka, Bangladesh                        Sep 2021–Aug 2022
+– Designed and deployed microservice architectures for scalable backend services.
+– Instructed boot-camp cohorts on backend API development and deployment best practices.
+
+Awards & Leadership
+– Foreign Excellence Scholarship, Chosun University (2022–2024).
+– President & Founding Member, FEC Scientific Research & Robotics Association (2018–2021).
+– President, FEC Cultural Club (2017–2019).
+– “Best Institute for Innovation” Award (2019) for UAV project.
+
+Skills
+Programming: Python, C/C++, Java, JavaScript, PHP
+DL/ML: PyTorch, TensorFlow, Keras, NumPy, Pandas, scikit-learn, OpenCV
+Dev Tools: Git, Docker
+Web/Backend: Spring Boot, React, Next.js, React Native
+Paradigms: Reactive, Functional, Event-Driven, TDD, Clean Architecture
+
+Language Proficiency
+IELTS: Overall Band Score: 7.5
+– Listening: 7.5
+– Reading: 7.5
+– Writing: 6.0
+– Speaking: 8.0
+
+
+References
+ Dr. Muhammad Yeasir Arafat                     Partha Mandal
+ Senior Postdoc                                 Lecturer
+ University College Cork,                       Department of Electrical and Electronic Engineering
+ Western Gateway Building, Cork, Ireland.       Faridpur Engineering College, University of Dhaka
+ Email: marafat@ucc.ie/ myarafat@chosun.ac.kr   Email: mandal.partha@fec.ac.bd
+
+
+
+
+                                                   2
+
